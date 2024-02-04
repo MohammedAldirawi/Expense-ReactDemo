@@ -1,9 +1,27 @@
-# React + Vite
+** React Demo "Expense App"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First: Installing React with Vite;
 
-Currently, two official plugins are available:
+Second: Using React State & Working with Events: {
+    - passing data "state" from parent to child;
+    - Listening to Events & Working with Event Handlers;
+    - Adding Form Inputs;
+    - Listening to User Input;
+    - Working with Multiple States "through some methods";
+    - Updating State That Depends On The Previous State;
+    - Alternative Creating A Shared Handler Function;
+    - Handling Form Submission;
+    - Adding Two-Way Binding;
+    - Lifting State Up "Child-to-Parent Component Communication" (Bottom-up);
+    - Derived  Computed State;
+    - Controlled vs Uncontrolled Components & Stateless vs Stateful Components;
+    - Also, Using {props.children} in Card Component;
+};
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# expense
+* Untill now, we have Two main components "Expenses & NewExpense"; 
+    = Expenses have "ExpensesFilter & ExpenseItem which have date, amount & title".
+    = NewExpense has "ExpenseForm";
+
+Third: Rendering Lists & Conditional Content: {
+    
+}
