@@ -17,7 +17,7 @@
     - Controlled vs Uncontrolled Components & Stateless vs Stateful Components;
     - Also, Using {props.children} in Card Component;
     
-    # Untill now, we have Two main components "Expenses & NewExpense"; 
+    # Until now, we have Two main components "Expenses & NewExpense"; 
     - Expenses have "ExpensesFilter & ExpenseItem which have date, amount & title".
     - NewExpense has "ExpenseForm";
 
@@ -25,5 +25,10 @@
     - Rendering Lists of Data;
     - Using Stateful Lists;
     - Adding Keys to New Expenses;
-    - Outputting Conditional Content "if the selected year does't show any expense";
-    - Adding ExpenseList File Withing The Conditional Return Statements;
+    - Outputting Conditional Content "if the selected year doesn't show any expense";
+    - Adding ExpenseList File within the Conditional Return Statements;
+
+    # Until now, we have three main components "UI, Expenses & NewExpense"; 
+    - UI has "Card";
+    - Expenses have "ExpensesFilter, Expense List to map the ExpenseItem which have a date, amount & title" and Showing no expense found in matter.
+    - NewExpense has "ExpenseForm";
